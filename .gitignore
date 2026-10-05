@@ -16,3 +16,10 @@ __pycache__/
 .ipynb_checkpoints/
 .venv*/
 .DS_Store
+
+# Keep the required auto-label in the submission even though local autolabel output is ignored
+!submission/autolabel/
+!submission/autolabel/bus.txt
+
+# Local extraction duplicate; canonical deliverables are directly under submission/
+submission/submission/
