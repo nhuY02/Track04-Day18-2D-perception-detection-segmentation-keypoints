@@ -83,10 +83,10 @@
     "val_images": 53,
     "best_checkpoint": "/content/runs/pose/runs_4b/tiger_anat_40ep/weights/best.pt",
     "q11_image": "submission/q11_val_samples.png",
-    "github_and_lms": "pending external steps"
+    "github_and_lms": "GitHub main branch pushed; LMS URL submission pending",
+    "public_repository": "https://github.com/nhuY02/Track04-Day18-2D-perception-detection-segmentation-keypoints"
   },
   "remaining_requirements": [
-    "Push the completed notebook and submission folder to a public GitHub repository",
     "Submit the public repository URL in LMS"
   ]
 }
