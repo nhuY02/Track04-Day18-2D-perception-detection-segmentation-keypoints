@@ -88,5 +88,9 @@
   },
   "remaining_requirements": [
     "Submit the public repository URL in LMS"
-  ]
+  ],
+  "student": {
+    "name": "Trần Thị Như Ý",
+    "student_id": "2A202602372"
+  }
 }

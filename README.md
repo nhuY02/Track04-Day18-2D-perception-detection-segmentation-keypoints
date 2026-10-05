@@ -178,3 +178,10 @@ Xem [`rubric.md`](rubric.md) (100 điểm lõi + 20 bonus).
 | 3C | *Quay lại câu hỏi: camera cổng nhà máy* |
 | 4A, 4C | *Bẫy flip_idx: augmentation phải hiểu nhãn* · *Bốn cái bẫy khi đọc mAP* |
 | 4B | *Vòng lặp phân tích lỗi* |
+
+## Thông tin học viên và bài nộp
+
+- Họ và tên: **Trần Thị Như Ý**
+- Mã số học viên: **2A202602372**
+- Kết quả, log huấn luyện và ảnh phân tích lỗi: [submission/README.md](submission/README.md)
+- Repository public: https://github.com/nhuY02/Track04-Day18-2D-perception-detection-segmentation-keypoints
