@@ -1,0 +1,29 @@
+{
+  "student": {
+    "name": "Trần Thị Như Ý",
+    "student_id": "2A202602372"
+  },
+  "result_4b": {
+    "flip_idx": "giải phẫu",
+    "epochs": 40,
+    "imgsz": 640,
+    "Box mAP50-95": 0.9303488492063492,
+    "Pose mAP50": 0.995,
+    "Pose mAP50-95": 0.4573462529843696,
+    "train (phút)": 4.7,
+    "device": "Tesla T4",
+    "val_images": 53
+  },
+  "answer_Q11": "Trên checkpoint sau đủ 40 epoch, sáu ảnh val thấp nhất có OKS 0.665 trở xuống; Frame_31.jpg (OKS 0.631) có lỗi lớn nhất ở right_hind_paw: 210 px, còn Frame_54.jpg (OKS 0.631) có lỗi lớn nhất ở left_front_paw: 205 px. Trong nhóm này các keypoint lệch nhiều nhất là left_front_paw (159 px trung bình trong nhóm sáu ảnh), left_hind_paw (154 px trung bình trong nhóm sáu ảnh), right_hind_paw (137 px trung bình trong nhóm sáu ảnh). Ảnh đỏ là nhãn thật, cyan là dự đoán và vạch vàng nối sai số trong `submission/q11_val_samples.png`. Lỗi chân/điểm xa thân thường cần thêm ảnh có tư thế bước hoặc che khuất tương tự và rà soát nhãn trái-phải; nếu nhiều keypoint cùng lệch, cần kiểm tra chất lượng nhãn và đa dạng vị trí/kích thước của hổ trong train.",
+  "audit": {
+    "gpu_training": "completed",
+    "completed_epochs": 40,
+    "requested_epochs": 40,
+    "device": "Tesla T4",
+    "val_images": 53,
+    "best_checkpoint": "/content/runs/pose/runs_4b/tiger_anat_40ep/weights/best.pt",
+    "q11_image": "submission/q11_val_samples.png",
+    "github_and_lms": "GitHub main branch pushed; LMS URL submission pending",
+    "public_repository": "https://github.com/nhuY02/Track04-Day18-2D-perception-detection-segmentation-keypoints"
+  }
+}

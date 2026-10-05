@@ -18,6 +18,7 @@
 
 - [`ket_qua.json`](ket_qua.json) — tiến độ, câu trả lời và metric.
 - [`4b_results.csv`](4b_results.csv) — log đủ 40 epoch.
+- [`4b_gpu_result.json`](4b_gpu_result.json) — bản ghi T4 được giữ nguyên khi chạy lại notebook trên CPU.
 - [`q11_val_samples.png`](q11_val_samples.png) — GT và dự đoán trên sáu ảnh val khó nhất.
 - [`autolabel/bus.txt`](autolabel/bus.txt) — nhãn YOLO-seg.
 - [`../lab_2d_perception_student.ipynb`](../lab_2d_perception_student.ipynb) — notebook chính đã chạy và có output.
